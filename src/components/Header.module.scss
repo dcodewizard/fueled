@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #ae0001;
+  // height: 72px;
+  color: white;
+  padding: 5px 20px;
+}
+
+.containerFluid {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 20px;
+  // height: 48px;
+  // width: 48px;
+  color: white;
+  margin-right: 10px;
+}
+
+.titleInput {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  outline: none;
+}
+
+.titleContainer {
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarToggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.navbarNav {
+  margin-left: auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-left: 10px;
+}
+
+.loginBtn {
+  background-color: #cc6666;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 8px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}
